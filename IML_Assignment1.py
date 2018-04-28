@@ -44,11 +44,12 @@ class GD():
 
 gd = GD(epoch=10,eta=1e-10).train()
 
+#decrypt image Eprime
 for i in range(0,E_width):
     for j in range(0,E_height):
         output_decrypt.putpixel((i,j),int(round((EP.getpixel((i,j))-gd.w[0]*K1.getpixel((i,j))-gd.w[1]*K2.getpixel((i,j)))/gd.w[2])))
 
-output_decrypt.save('decrypted_EP1e-10_10.png')
+output_decrypt.save('decrypted_EP1e-10_10.png')  #save decrypted image
 
 plot.plot(range(1,len(gd.cost)+1),np.log10(gd.cost),marker='o')
 plot.xlabel('Iterations')
