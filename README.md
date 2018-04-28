@@ -1,2 +1,2 @@
-# Neural Network Programming Assignment 1:Image Decryption by a Single-Layer Neural Network
-
+# Neural Network Programming Assignment 1:
+        Image Decryption by a Single-Layer Neural Network
