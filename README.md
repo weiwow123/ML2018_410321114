@@ -29,7 +29,3 @@
   在這次作業中，我將learning rate分別設為1e-5、1e-6、1e-7、1e-8、1e-9、1e-10，看其對結果產生的影響，以下是各個learning rate的圖表︰  
   (以下的epoch皆為10)  
   
-  |![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-5_10.png)|![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-6_10.png)| 
-  |![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-7_10.png)|![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-8_10.png)| 
-  |![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-9_10.png)|![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-10_10.png)| 
-  
