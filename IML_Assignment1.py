@@ -16,7 +16,7 @@ output_encrypt = img.new("L",(E_width,E_height))
 
 class GD():
     def __init__(self,eta=1e-10,epoch=10):
-        self.eta = eta
+        self.eta = eta   #learning rate
         self.epoch = epoch
         self.w = [rd.random(),rd.random(),rd.random()]
         self.cost = []
@@ -44,16 +44,14 @@ class GD():
 
 gd = GD(epoch=10,eta=1e-10).train()
 
-plot.plot(range(1,len(gd.cost)+1),np.log10(gd.cost),marker='o')
-plot.xlabel('Iterations')
-plot.ylabel('log(sum_squared_error)')
-plot.title('Adaline by Gradient Descent - LR=1e-10')
-plot.show()
-
 for i in range(0,E_width):
     for j in range(0,E_height):
         output_decrypt.putpixel((i,j),int(round((EP.getpixel((i,j))-gd.w[0]*K1.getpixel((i,j))-gd.w[1]*K2.getpixel((i,j)))/gd.w[2])))
 
 output_decrypt.save('decrypted_EP1e-10_10.png')
 
-
+plot.plot(range(1,len(gd.cost)+1),np.log10(gd.cost),marker='o')
+plot.xlabel('Iterations')
+plot.ylabel('log(sum_squared_error)')
+plot.title('Adaline by Gradient Descent - LR=1e-10')
+plot.show()
