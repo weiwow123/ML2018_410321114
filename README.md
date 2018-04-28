@@ -30,10 +30,10 @@
   (以下的epoch皆為10)  
   
   |![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-5_10.png)|
-  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-6_10.png)|  
-  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-7_10.png)|
-  |---|---|---|
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-6_10.png)|
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-7_10.png)| 
+  |---|---|---| 
   |![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-8_10.png)|
   ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-9_10.png)|  
-  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-10_10.png)|
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/result/1e-10_10.png)| 
   
