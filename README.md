@@ -1,10 +1,14 @@
 # Neural Network Programming Assignment 1:
 
+# 作業說明︰
+
+  將圖片透過
+
 # 問題︰  
   A.the way how you prepare the training samples  
   
     我使用PIL的Image.open()來讀取圖片  
-    ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/image_open.png)
+    ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/image_open.png)  
     
   B. all parameters, such as MaxIterLimit, α , and ε , you used for the training algorithm  
   
