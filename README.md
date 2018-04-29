@@ -7,7 +7,7 @@
     
   B. all parameters, such as MaxIterLimit, α , and ε , you used for the training algorithm  
   
-    MaxIterLimit = 10, α = 1e-5~1e-10,  
+    MaxIterLimit = 10, α = 1e-5~1e-10, ε = 1e-10 
     
   C. the derived weight vector w  
   
