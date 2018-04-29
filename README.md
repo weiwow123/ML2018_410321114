@@ -2,8 +2,25 @@
 
 # 作業說明︰
 
-  將圖片透過![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/2.png)進行加密，加密後的圖片可以透過進行解密。
-
+  將圖片透過![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/2.png)進行加密，加密後的圖片可以透過![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/3.png)進行解密。  
+  
+  其中I.png為範例Input，E.png為範例output，按照作業要求需將Eprime.png進行解密。  
+  
+  I.png  
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgData/I.png)  
+  
+  K1(key1.png)  
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgData/key1.png)  
+  
+  K2(key2.png)  
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgData/key2.png)  
+  
+  E.png  
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgData/E.png)  
+  
+  Eprime.png  
+  ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgData/Eprime.png)   
+  
 # 問題︰  
   A.the way how you prepare the training samples  
   
