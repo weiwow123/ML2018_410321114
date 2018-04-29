@@ -22,12 +22,17 @@ class GD():
         self.cost = []
 
     def train(self):
-        print 'train epoch = ', self.epoch, ' learning rate = ', self.eta,' w = [ ',self.w[0],',',self.w[1],',',self.w[2],' ]'
+        print 'Training......'
         a = np.zeros((E_width,E_height),dtype='f')
         e = np.zeros((E_width,E_height),dtype='f')
-        epoch = self.epoch
-        while epoch>=1 :
+        epoch = 0
+        wk_1 = [0.0,0.0,0.0]  #w(k-1)
+        while epoch<self.epoch and abs(wk_1[0]-self.w[0])+abs(wk_1[1]-self.w[1])+abs(wk_1[2]-self.w[2])>1e-10:
+            print 'epoch: ',epoch+1,' W = [ ',self.w[0],' , ',self.w[1],' , ',self.w[2],' ]' 
             cost = 0
+            for i in range(0,3):
+                wk_1[i] = self.w[i]
+                
             for i in range(0,E_width):
                 for j in range(0,E_height):
                     a[i][j] = self.w[0]*K1.getpixel((i,j))+self.w[1]*K2.getpixel((i,j))+self.w[2]*I.getpixel((i,j))
@@ -38,7 +43,8 @@ class GD():
                     cost+=(e[i][j]**2)/2.0
 
             self.cost.append(cost/E_width*E_height)
-            epoch-=1
+            print 'cost: ',self.cost[epoch]
+            epoch+=1
 
         return self
 
