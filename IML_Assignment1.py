@@ -12,7 +12,6 @@ EP = img.open('/home/cos/IML_hw1/imgData/Eprime.png')  #decrypt key
 E_width = E.size[0]
 E_height = E.size[1]
 output_decrypt = img.new("L",(E_width,E_height))
-output_encrypt = img.new("L",(E_width,E_height))
 
 class GD():
     def __init__(self,eta=1e-10,epoch=10):
