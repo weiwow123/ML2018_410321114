@@ -44,7 +44,7 @@
 
 ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgResult_1e-2/decrypted_EP1e-10_10.png)
 
-#參考資料︰
+# 參考資料︰  
   https://chtseng.wordpress.com/2017/07/24/neural-networks-%E4%B8%80/  
   
   http://sebastianraschka.com/Articles/2015_singlelayer_neurons.html  
