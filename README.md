@@ -43,3 +43,12 @@
 由以上的結果可以知道Learing Rate介於1e-5~1e-8之間得出的結果會比較好，另外若是Learning Rate設為1e-10的話，甚至會讓decrypt出來的圖片失敗，以下是用1e-10 decrypt出來的結果︰
 
 ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgResult_1e-2/decrypted_EP1e-10_10.png)
+
+#參考資料︰
+  https://chtseng.wordpress.com/2017/07/24/neural-networks-%E4%B8%80/  
+  
+  http://sebastianraschka.com/Articles/2015_singlelayer_neurons.html  
+  
+  https://www.cnblogs.com/yinxiangnan-charles/p/5928689.html  
+  
+  https://github.com/guodongxiaren/README  
