@@ -2,7 +2,7 @@
 
 # 作業說明︰
 
-  將圖片透過
+  將圖片透過![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/2.png)進行加密，加密後的圖片可以透過進行解密。
 
 # 問題︰  
   A.the way how you prepare the training samples  
