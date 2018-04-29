@@ -3,8 +3,9 @@
 # 問題︰  
   A.the way how you prepare the training samples  
   
-    我使用PIL的Image.open()來讀取圖片  
-    
+    我使用PIL的Image.open()來讀取圖片  
+    ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/image_open.png)
+    
   B. all parameters, such as MaxIterLimit, α , and ε , you used for the training algorithm  
   
     MaxIterLimit = 10, α = 1e-5~1e-10, ε = 1e-10 
@@ -16,7 +17,7 @@
   D. the printed image I’ decrypted from E’  
   
     ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgResult/decrypted_EP1e-9_10.png)  
-    
+    設為
   E. the problems you encountered  
   
     我一開始遭遇最大的問題是圖片的處理部份，由於之前沒怎麼使用過以pixel對圖片進行修改，所以中間不停出錯。  
@@ -44,7 +45,7 @@
 
 ![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgResult_1e-2/decrypted_EP1e-10_10.png)
 
-  在完成前列討論厚另外發現我未將題目上
+  在完成前列討論後另外發現我未將題目上要求的![error](https://github.com/weiwow123/ML2018_410321114/blob/master/imgSource/2.png)放進while中，之後補上後又發現由於ε的值設定上的問題導致一直無法順利進行Training，經過幾次調整後決定將ε設為1e-1，而過程中由於w為random，導致一直無法很順利的檢查，於是將w設定為定值1e-3。
 
 # 參考資料︰  
   https://chtseng.wordpress.com/2017/07/24/neural-networks-%E4%B8%80/  
